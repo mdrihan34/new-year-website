@@ -265,3 +265,152 @@
   width: 443px;
   padding: 10px;
 }
+.produts-section {
+  margin: 50px 292px;
+  padding: 100px 1px;
+  line-height: 1.6;
+}
+.produts-item {
+  margin: 5px;
+}
+.produts-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+
+  font-weight: 500;
+}
+.produts-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+
+  font-weight: 900;
+}
+.produts-discription {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+
+  font-weight: 400;
+
+  width: 896px;
+}
+.produts {
+  margin-top: 48px;
+}
+.Subscribe-section {
+  margin: 50px 292px;
+  padding: 100px 1px;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-email {
+  display: flex;
+  justify-content: center;
+}
+input[type="email"] {
+  width: 500px;
+  height: 72px;
+  border: none;
+  border-radius: 32px 0px 0px 32px;
+  padding-left: 30px;
+}
+input[type="button"] {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 20px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  background-color: #070211;
+}
+.subscribe-title {
+  color: #070211;
+
+  font-family: Merriweather;
+  font-size: 48px;
+
+  font-weight: 900;
+  margin-top: 40px;
+}
+.subscribe-discription {
+  color: rgba(7, 2, 17, 0.6);
+  justify-content: center;
+  font-family: Inter;
+  font-size: 20px;
+  width: 896px;
+  font-weight: 400;
+  margin-left: 236px;
+  margin: 22px auto 48px;
+}
+/* footer style */
+
+footer {
+  background: #070211;
+}
+.footer {
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-text {
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  width: 375px;
+  height: 34px;
+}
+.footer-info-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-1 {
+  margin-left: -35px;
+  margin-bottom: -34px;
+}
+.footer-contant {
+  align-items: center;
+
+  margin-bottom: 50px;
+}
+.fot-info-1 {
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 40px;
+  width: 385px;
+  height: 7px;
+  padding-top: 51px;
+  padding-left: 46px;
+}
+.sociel-icon {
+  text-align: center;
+  padding: 48px;
+}
+.sociel-icon > img {
+  padding-left: 24px;
+}
+.line {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.low-footer {
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
