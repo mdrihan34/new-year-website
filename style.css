@@ -66,57 +66,202 @@
 
   font-weight: 700;
 }
-.welcome-section{
-    background-image: url(./images/Vectorrr.png);
-    background-repeat: no-repeat;
-    padding: 182px 1px;
-    margin: 50px 292px;
-    display: flex;
-
-
+.welcome-section {
+  background-image: url(./images/Vectorrr.png);
+  background-repeat: no-repeat;
+  padding: 182px 1px;
+  margin: 50px 292px;
+  display: flex;
 }
-.img-2024{
-    margin-top: -130px;
-    padding-right: 22px;
-   
+.img-2024 {
+  margin-top: -130px;
+  padding-right: 22px;
 }
-.welcome{
-    padding: 8px 132px;
+.welcome {
+  padding: 8px 132px;
 }
-.prty{
-    color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
+.prty {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
 
-font-weight: 900;
+  font-weight: 900;
 
-letter-spacing: 7.04px;
-
+  letter-spacing: 7.04px;
 }
-.prty-discription{
-    color: rgba(186, 186, 186, 0.8);
-font-family: Inter;
-font-size: 18px;
+.prty-discription {
+  color: rgba(186, 186, 186, 0.8);
+  font-family: Inter;
+  font-size: 18px;
 
-font-weight: 400;
-margin: 26px auto 40px
-
+  font-weight: 400;
+  margin: 26px auto 40px;
 }
-.Join{
-    background: none;
-    color: #FFF;
+.Join {
+  background: none;
+  color: #fff;
 
-font-family: Inter;
-font-size: 20px;
+  font-family: Inter;
+  font-size: 20px;
 
-font-weight: 700;
-border: none;
-margin-left: 52px;
-cursor: pointer;
-width: 103px;
-height: 24px;
+  font-weight: 700;
+  border: none;
+  margin-left: 52px;
+  cursor: pointer;
+  width: 103px;
+  height: 24px;
 }
-.Join:hover{
-    background-color: #ff0d0d;
-    border-radius: 100px;
+.Join:hover {
+  background-color: #ff0d0d;
+  border-radius: 100px;
+}
+.time-section {
+  margin: 50px 292px;
+  padding: 100px 1px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  text-align: center;
+  line-height: 1.8;
+}
+.date-time-place {
+  color: #070211;
+
+  font-size: 32px;
+  font-family: Inter;
+
+  font-weight: 600;
+}
+.red-color {
+  color: #f00;
+}
+.btn-1 {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 20px;
+
+  font-weight: 700;
+
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+  margin-top: 48px;
+  cursor: pointer;
+}
+.btn-1:hover {
+  background-color: #070211;
+}
+.celebrate-section {
+  display: flex;
+  margin: 50px 292px;
+  padding: 100px 1px;
+  background: #fff;
+  align-items: center;
+  line-height: 1.8;
+}
+.celebrate-discription {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+
+  font-weight: 400;
+  margin: 16px auto 26px auto;
+}
+.best-offer {
+  color: #f00;
+
+  font-family: Inter;
+  font-size: 24px;
+
+  font-weight: 500;
+  margin-top: 20px;
+}
+.soon {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+
+  font-weight: 900;
+}
+.celebrate-year {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+
+  font-weight: 700;
+}
+.celebrate {
+  width: 364px;
+  height: 364px;
+}
+.broder-color {
+  border: 15px solid #f00;
+  border-radius: 500px;
+  margin-right: 188px;
+  padding: 10px;
+}
+.Holidays {
+  margin: 50px 292px;
+  padding: 100px 1px;
+  text-align: center;
+  background-color: #fff;
+}
+.sale-50 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+}
+.holidays-discription {
+  color: rgba(7, 2, 17, 0.6);
+
+  font-family: Inter;
+  font-size: 20px;
+
+  font-weight: 500;
+  margin: auto 215px;
+  margin-top: 20px;
+}
+.holidays-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+
+  font-weight: 500;
+  line-height: 2.5;
+}
+.holidays-images {
+  margin-top: 50px;
+  margin-right: 100px;
+}
+.girl {
+  background-image: url(./images/Rectangle\ 1.png);
+  width: 429px;
+  height: 433px;
+  display: flex;
+  margin-left: 788px;
+}
+.discount {
+  margin: 40px;
+  margin-left: -185px;
+  margin-top: 68px;
+}
+.holiday-color {
+  background-image: url(./images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+
+  display: flex;
+  height: 200px;
+  border-radius: 0 0 16px 16px;
+}
+.git-box {
+  margin-top: -305px;
+
+  height: 448px;
+  width: 443px;
+  padding: 10px;
 }
